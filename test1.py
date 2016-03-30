@@ -8,5 +8,7 @@ print(dir())
 print(dir(__builtins__))
 
 #giving argument in the terminal
-ar=sys.argv
-print("This is argument 1: "+ar[1])
+ar1=sys.argv
+print("This is argument 1: "+ar1[1])
+print("This is argument 2: "+ar1[2])
+print("This is argument 3: "+ar1[3])
